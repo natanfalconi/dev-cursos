@@ -5,30 +5,34 @@ export const Container = styled('div', {
     position: 'relative',
 
     '@sm': {
-        padding: '40px 0px 0px',
+        padding: '50px 0px 0px',
     }
 });
 
 export const ContainerImage = styled('div', {
-    width: '100%',
-    height: '100%',
-
     'img': {
         borderRadius: '50%',
+    },
+
+    "@sm": {
+        'svg': {
+            display: 'none'
+        }
     }
 });
 
 export const TitleContainer = styled('div', {
+    'span': {
+        fontSize: '32px',
+        color: '$secondary_900',
+    },
+
     'h2': {
         color: '$gray_25',
         fontSize: '32px',
         lineHeight: '$header_4',
         fontWeight: '$header_1',
         marginBottom: '12px',
-
-        'span': {
-            color: '$secondary_900',
-        },
     },
 
     'h6': {

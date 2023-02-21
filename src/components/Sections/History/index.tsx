@@ -1,6 +1,7 @@
 import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { Container, ContainerImage, TitleContainer } from "./styles";
 import leonardo from '../../../../public/img/leonardo.jpg'
+import DevBg from '../../../../public/svg/dev.svg'
 import { useViewport } from "@/src/providers/ViewportProvider";
 import Image from "next/image";
 
@@ -15,17 +16,19 @@ export function History() {
                 <Row style={{ display: 'flex', alignItems: 'center' }}>
                     <Col md={6}>
                         <ContainerImage>
-                            <img src={leonardo.src} alt='imagem do instrutor' />
+                            <DevBg />
                         </ContainerImage>
                     </Col>
 
                     <Col md={6}>
                         <TitleContainer>
-                            <h2>
-                                <span>Quem será seu instrutor?</span>
-                                Leonardo Moura Leitao
-                            </h2>
+                            <ContainerImage>
+                                <img src={leonardo.src} alt='imagem do instrutor' />
+                            </ContainerImage>
 
+                            <span>Quem será seu instrutor?</span> <br />
+
+                            <h2>Leonardo Moura Leitao</h2>
                             <h6>Arquiteto de Software</h6>
 
                             <p>
