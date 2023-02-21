@@ -2,6 +2,7 @@ import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { Container, ContainerImage, TitleContainer } from "./styles";
 import leonardo from '../../../../public/img/leonardo.jpg'
 import { useViewport } from "@/src/providers/ViewportProvider";
+import Image from "next/image";
 
 export function History() {
     const isMobile = useViewport();

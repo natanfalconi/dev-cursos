@@ -84,7 +84,7 @@ export function Courses() {
                                     <FeedbackText>
                                         <p>{card.feedback}</p>
 
-                                        <a href={card.link} target='_blank'>Comprar agora</a>
+                                        <a href={card.link} target='_blank' rel="noreferrer">Comprar agora</a>
                                     </FeedbackText>
                                 </CardFeedback>
                             ))}
@@ -95,7 +95,7 @@ export function Courses() {
                 <Row>
                     <Col md={12}>
                         <Options>
-                            <a href="https://www.cod3r.com.br/bundles/plano-de-assinatura-1?ref=96e4e9" target='_blank'>
+                            <a href="https://www.cod3r.com.br/bundles/plano-de-assinatura-1?ref=96e4e9" target='_blank' rel="noreferrer">
                                 Veja todas as opções disponíveis
                             </a>
                         </Options>
