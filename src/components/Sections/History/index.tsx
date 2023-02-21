@@ -5,7 +5,9 @@ import { useViewport } from "@/src/providers/ViewportProvider";
 import Image from "next/image";
 
 export function History() {
-    const isMobile = useViewport();
+    const { isMobile } = useViewport();
+
+    console.log('isMobile', isMobile)
 
     return (
         <Container>

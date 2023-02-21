@@ -44,8 +44,6 @@ export const CardCourses = styled('div', {
     minHeight: '283px',
     background: '#F7F7F7',
     borderRadius: '$sm',
-
-    flexBasis: 'calc(33.33% - 20px)',
     // '&:hover': {
     //     transform: 'translateY(-20px)',
     // }
