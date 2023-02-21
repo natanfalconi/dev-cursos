@@ -1,11 +1,13 @@
 import { styled } from '../../../../stitches.config';
 
 export const ContainerDesktop = styled('header', {
-    background: '$light_400',
+    background: '$gray_25',
     color: '#000',
     position: 'fixed',
     zIndex: 2,
     width: '100%',
+
+    boxShadow: '0px 16px 24px rgba(0, 0, 0, 0.12)',
 });
 
 export const PromotionTitle = styled('div', {

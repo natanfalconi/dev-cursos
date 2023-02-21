@@ -13,7 +13,7 @@ export const TitleContainer = styled('div', {
     marginBottom: '32px',
 
     'h2': {
-        color: '$light_text_100',
+        color: '$gray_25',
         fontSize: '32px',
         lineHeight: '40px',
         fontWeight: '$header_1',
@@ -39,7 +39,6 @@ export const ContentCard = styled('div', {
     flexWrap: 'wrap',
     gap: 28,
     justifyContent: 'center',
-    color: '$light_text_100',
 
     "@sm": {
         display: 'grid',
@@ -47,13 +46,13 @@ export const ContentCard = styled('div', {
     }
 });
 
-
 export const ContentCardItem = styled('div', {
     maxWidth: '456px',
-    maxHeight: '403px',
-    background: '#fff',
+    minHeight: '250px',
     borderRadius: '8px',
+    background: '#faf5f6',
     boxShadow: '0px 16px 24px rgba(0, 0, 0, 0.12)',
+    color: '#000',
 
     flexBasis: 'calc(33.33% - 20px)',
 
@@ -104,4 +103,8 @@ export const ImageBackground = styled('div', {
         bottom: 0,
         zIndex: 0,
     },
+})
+
+export const SizeCarousel = styled('div', {
+    // minHeight: '400px'
 })

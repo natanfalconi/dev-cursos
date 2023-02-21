@@ -20,7 +20,7 @@ export const ContainerImage = styled('div', {
 
 export const TitleContainer = styled('div', {
     'h2': {
-        color: '$light_text_100',
+        color: '$gray_25',
         fontSize: '32px',
         lineHeight: '$header_4',
         fontWeight: '$header_1',
@@ -41,9 +41,8 @@ export const TitleContainer = styled('div', {
         marginBottom: '24px',
         fontSize: '$body_1',
         lineHeight: '$body_1',
-        color: '#000',
+        color: '$gray_25',
     },
-
 
     "@sm": {
         'h2': {
@@ -53,13 +52,3 @@ export const TitleContainer = styled('div', {
         },
     }
 });
-
-export const CircleArrow = styled('div', {
-    width: '56px',
-    height: '56px',
-    background: '$primary_600',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: '50%',
-})
