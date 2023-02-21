@@ -1,14 +1,12 @@
+import { useViewport } from "@/src/providers/ViewportProvider";
 import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { ButtonBag, CheckboxArea, Container, FormBag, SelectContainer, SizeBag, TitleContainer, ValueBag } from "./styles";
-import Checkbox from "@components/Checkbox";
-import priceMobile from '../../../../public/img/price-mobile.webp'
-import bagsForm from '../../../../public/img/bags-form.webp'
-
-import { useMediaQuery } from "@react-hook/media-query";
-import { media } from "@main/stitches.config";
+// import Checkbox from "@components/Checkbox";
+// import priceMobile from '../../../../public/img/price-mobile.webp'
+// import bagsForm from '../../../../public/img/bags-form.webp'
 
 export function ShoppingProtectBag() {
-    const isMobile = useMediaQuery(media.xs);
+    const isMobile = useViewport();
 
     return (
         <Container id='shopping'>
@@ -19,13 +17,13 @@ export function ShoppingProtectBag() {
             <GridContainer >
                 <Row>
                     <Col md={6} style={isMobile && { padding: 0 }}>
-                        {isMobile && (
+                        {/* {isMobile && (
                             <img src={priceMobile.src} />
-                        )}
+                        )} */}
                     </Col>
 
                     <Col md={6} style={isMobile && { padding: 0 }}>
-                        <FormBag>
+                        {/* <FormBag>
                             <form>
                                 <h2>Proteção de Mala - <span>Lacração</span></h2>
                                 <hr />
@@ -88,7 +86,7 @@ export function ShoppingProtectBag() {
                                     </button>
                                 </ButtonBag>
                             </form>
-                        </FormBag>
+                        </FormBag> */}
                     </Col>
                 </Row>
             </GridContainer>
