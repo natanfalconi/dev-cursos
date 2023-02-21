@@ -7,18 +7,22 @@ import { useEffect, useState } from 'react';
 export function Header() {
   const isMobile = useViewport();
 
-  const [time, setTime] = useState(480); // 8 minutos em segundos
+  const [remainingSeconds, setRemainingSeconds] = useState(8 * 60);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTime(prevTime => prevTime - 1);
+    const intervalId = setInterval(() => {
+      setRemainingSeconds((prevSeconds) => prevSeconds - 1);
     }, 1000);
-    return () => clearInterval(timer);
-  }, []);
+    if (remainingSeconds === 0) clearInterval(intervalId);
+    return () => clearInterval(intervalId);
+  }, [remainingSeconds]);
 
-  const hours = Math.floor(time / 3600).toString().padStart(2, '0');
-  const minutes = Math.floor((time % 3600) / 60).toString().padStart(2, '0');
-  const seconds = (time % 60).toString().padStart(2, '0');
+  const hours = Math.floor(remainingSeconds / 3600);
+  const minutes = Math.floor((remainingSeconds % 3600) / 60);
+  const seconds = remainingSeconds % 60;
+
+  const formattedTime = `${hours < 10 ? "0" : ""}${hours}:${minutes < 10 ? "0" : ""
+    }${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
 
   return (
     <ContainerDesktop>
@@ -32,7 +36,7 @@ export function Header() {
 
               <PromotionTitle>
                 <h4>
-                  promoção acaba em {isMobile ? <br /> : ''} <span>{hours}:{minutes}:{seconds}</span>
+                  promoção acaba em {isMobile ? <br /> : ''} <span>{formattedTime}</span>
                 </h4>
               </PromotionTitle>
 
@@ -41,7 +45,7 @@ export function Header() {
                   <a href="#inicio">Início</a>
                   <a href="#beneficios">Benefícios</a>
                   <a href="#depoimentos">Depoimentos</a>
-                  <a href='#shopping'>Ver preços</a>
+                  <a href='#cursos'>Ver cursos</a>
                 </NavLinks>
               </Navbar>
             </ContantHeader>

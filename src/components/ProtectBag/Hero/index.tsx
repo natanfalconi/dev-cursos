@@ -1,13 +1,10 @@
-// import { media } from '@main/stitches.config';
-// import { useMediaQuery } from '@react-hook/media-query';
 import { Container as GridContainer, Row, Col } from 'react-grid-system';
-import { CircleArrow, Container, ContainerText, ContentText, LogoProtect } from './styles';
-// import ProtecBag from '../../../../public/svg/protect-bag.svg';
+import { CircleArrow, Container, ContainerText, ContentText } from './styles';
 import { useViewport } from '@/src/providers/ViewportProvider';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowDown } from '@fortawesome/pro-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons/faArrowDown';
 
-export function ProtectBag() {
+export function Hero() {
     const isMobile = useViewport();
 
     return (
@@ -29,17 +26,8 @@ export function ProtectBag() {
                 </GridContainer>
 
                 <CircleArrow>
-                    {/* <FontAwesomeIcon icon={faArrowDown} color="#fff" /> */}
+                    <FontAwesomeIcon icon={faArrowDown} color="#fff" />
                 </CircleArrow>
-                {isMobile ? (
-                    <></>
-                    // <LogoProtect>
-                    //     <ProtecBag />
-                    // </LogoProtect>
-                ) : (
-                    <></>
-                )}
-
             </Container>
         </>
     )

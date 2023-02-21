@@ -1,18 +1,18 @@
-import { BenefitsProtectBag } from '@/src/components/ProtectBag/Benefits'
-import { FeedbackProtectBag } from '@/src/components/ProtectBag/Feedbacks'
-import { ProtectBag } from '@/src/components/ProtectBag/Hero'
-import { HistoryProtectBag } from '@/src/components/ProtectBag/History'
+import { Benefits } from '@/src/components/ProtectBag/Benefits'
+import { Courses } from '@/src/components/ProtectBag/Courses'
+import { Hero } from '@/src/components/ProtectBag/Hero'
+import { History } from '@/src/components/ProtectBag/History'
 import { ShoppingProtectBag } from '@/src/components/ProtectBag/Shopping'
 import { Layout } from '../src/container/Layout'
 
 export default function Home() {
   return (
     <Layout >
-      <ProtectBag />
-      <HistoryProtectBag />
-      <BenefitsProtectBag />
-      {/* <FeedbackProtectBag />
-      <ShoppingProtectBag /> */}
+      <Hero />
+      <History />
+      <Benefits />
+      <Courses />
+      {/* <ShoppingProtectBag /> */}
     </Layout>
   )
 }

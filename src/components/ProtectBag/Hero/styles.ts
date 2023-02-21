@@ -10,7 +10,7 @@ export const Container = styled('div', {
     color: '$light_100',
 
     '@sm': {
-        background: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(img/hero-mobile.webp)`,
+        background: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(img/bg-hero.jpg)`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -82,12 +82,12 @@ export const ContentText = styled('div', {
 export const CircleArrow = styled('div', {
 
     position: 'absolute',
-    bottom: '-28px',
+    bottom: '-33px',
     left: '50%',
     transform: 'translateX(-50%)',
 
-    width: '56px',
-    height: '56px',
+    width: '68px',
+    height: '68px',
     background: '$secondary_900',
     display: 'flex',
     alignItems: 'center',

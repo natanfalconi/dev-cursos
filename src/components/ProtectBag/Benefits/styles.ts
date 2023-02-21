@@ -57,14 +57,20 @@ export const ContentCardItem = styled('div', {
 
     flexBasis: 'calc(33.33% - 20px)',
 
-    'img': {
-        borderRadius: '8px 8px 0 0'
+    alignItems: 'center',
+    justifyContent: 'center',
+    display: 'flex',
+    flexDirection: "column",
+    padding: '24px',
+
+    'svg': {
+        marginBottom: '16px',
     },
 
     'div': {
-        padding: '24px',
 
         'h3': {
+            textAlign: 'center',
             fontWeight: '800',
             fontSize: '24px',
             lineHeight: '30px',

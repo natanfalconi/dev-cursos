@@ -3,7 +3,7 @@ import { CircleArrow, Container, ContainerImage, TitleContainer } from "./styles
 import leonardo from '../../../../public/img/leonardo.jpg'
 import { useViewport } from "@/src/providers/ViewportProvider";
 
-export function HistoryProtectBag() {
+export function History() {
     const isMobile = useViewport();
 
     return (
@@ -30,9 +30,7 @@ export function HistoryProtectBag() {
                                 Mestre em Informática Aplicada pela Universidade de Fortaleza, na qual trabalhou com Integração de Redes de
                                 Sensores sem Fio e Computação em Nuvem.
                                 <br />
-                                <br />
-                                Instrutor premiado internacionalmente e tem umas das melhores avaliações entre os instrutores da Udemy.
-                                <br />
+
                                 <br />
                                 Há quinze anos atua na área como desenvolvedor de softwares e trabalhou na DATAPREV como arquiteto,
                                 desenvolvendo sistemas para o INSS. Professor de desenvolvimento de software há mais de doze anos, criou a
