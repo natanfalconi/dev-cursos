@@ -43,6 +43,12 @@ export const ContantHeader = styled('div', {
     alignItems: 'center',
     justifyContent: 'space-between',
     fontFamily: '$primary',
+
+    'a': {
+        'svg': {
+            fontSize: '14px',
+        }
+    },
 });
 
 export const NavLinks = styled('nav', {

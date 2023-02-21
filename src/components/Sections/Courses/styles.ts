@@ -30,21 +30,22 @@ export const TitleContainer = styled('div', {
 
 export const ContentCard = styled('div', {
     display: 'flex',
+    flexWrap: 'wrap',
     gap: '32px',
     borderRadius: '8px',
-    flexWrap: 'wrap',
 
     // transition: 'transform ease-in-out',
     // animationDelay: '0.4s'
 
 });
 
-export const CardFeedback = styled('div', {
+export const CardCourses = styled('div', {
     maxWidth: '330px',
     minHeight: '283px',
     background: '#F7F7F7',
     borderRadius: '$sm',
 
+    flexBasis: 'calc(33.33% - 20px)',
     // '&:hover': {
     //     transform: 'translateY(-20px)',
     // }

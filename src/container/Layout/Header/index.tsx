@@ -2,6 +2,7 @@ import { ContainerDesktop, ContantHeader, Navbar, NavLinkMobile, NavLinks, NavLi
 import { Row, Col, Container as GridContainer } from 'react-grid-system';
 import { useViewport } from '@/src/providers/ViewportProvider';
 import LogoDev from '../../../../public/logo.png'
+import LogoDev2 from '../../../../public/svg/logo-dev.svg'
 import { useEffect, useState } from 'react';
 
 export function Header() {
@@ -28,15 +29,15 @@ export function Header() {
     <ContainerDesktop>
       <GridContainer>
         <Row>
-          <Col style={isMobile && { paddingRight: 0 }}>
+          <Col style={isMobile && { padding: 0 }}>
             <ContantHeader>
               <a href="#inicio">
-                {/* <img src={LogoDev.src} alt="logo do site - dev cursos" /> */}
+                <LogoDev2 />
               </a>
 
               <PromotionTitle>
                 <h4>
-                  promoção acaba em {isMobile ? <br /> : ''} <span>{formattedTime}</span>
+                  promoção termina em <span>{formattedTime}</span>
                 </h4>
               </PromotionTitle>
 
