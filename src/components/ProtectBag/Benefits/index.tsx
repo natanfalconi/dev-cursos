@@ -5,8 +5,8 @@ import { CircleArrow, Container, ContentCard, ContentCardItem, ImageBackground, 
 // import womanBag from '../../../../public/img/woman-bag.webp'
 // import bag from '../../../../public/img/bag.webp'
 // import imgMala from '../../../../public/img/img-mala.webp'
-// import { faArrowDown } from '@fortawesome/pro-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import ellipse from '../../../../public/img/ellipse.webp'
 import { useViewport } from '@/src/providers/ViewportProvider';
 
@@ -55,7 +55,7 @@ export function BenefitsProtectBag() {
                         {!isMobile && (
                             <Col md={12} style={{ marginTop: '30px', display: 'flex', justifyContent: 'center' }}>
                                 <CircleArrow>
-                                    {/* <FontAwesomeIcon icon={faArrowDown} color="#fff" /> */}
+                                    <FontAwesomeIcon icon={faArrowDown} color="#fff" />
                                 </CircleArrow>
                             </Col>
                         )}
