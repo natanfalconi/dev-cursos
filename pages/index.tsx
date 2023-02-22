@@ -4,7 +4,7 @@ import { Courses } from '@/src/components/Sections/Courses'
 import { Faq } from '@/src/components/Sections/Faq'
 import { Hero } from '@/src/components/Sections/Hero'
 import { History } from '@/src/components/Sections/History'
-// import { ShoppingSections } from '@/src/components/Sections/Shopping'
+import { Shopping } from '@/src/components/Sections/Shopping'
 import { Layout } from '../src/container/Layout'
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <Benefits />
       <Courses />
       <Faq />
-      {/* <ShoppingProtectBag /> */}
+      {/* <Shopping /> */}
     </Layout>
   )
 }

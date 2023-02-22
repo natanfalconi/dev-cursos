@@ -5,7 +5,7 @@ import { ButtonBag, CheckboxArea, Container, FormBag, SelectContainer, SizeBag, 
 // import priceMobile from '../../../../public/img/price-mobile.webp'
 // import bagsForm from '../../../../public/img/bags-form.webp'
 
-export function ShoppingProtectBag() {
+export function Shopping() {
     const isMobile = useViewport();
 
     return (
