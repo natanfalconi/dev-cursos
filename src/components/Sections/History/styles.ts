@@ -28,7 +28,7 @@ export const TitleContainer = styled('div', {
     },
 
     'h2': {
-        color: '$gray_25',
+        color: '$light_text_100',
         fontSize: '32px',
         lineHeight: '$header_4',
         fontWeight: '$header_1',
@@ -45,7 +45,7 @@ export const TitleContainer = styled('div', {
         marginBottom: '24px',
         fontSize: '$body_1',
         lineHeight: '$body_1',
-        color: '$gray_25',
+        color: '$light_text_100',
     },
 
     "@sm": {

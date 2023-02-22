@@ -13,7 +13,7 @@ export const TitleContainer = styled('div', {
     marginBottom: '32px',
 
     'h2': {
-        color: '$gray_25',
+        color: '$light_text_100',
         fontSize: '32px',
         lineHeight: '40px',
         fontWeight: '$header_1',
@@ -51,7 +51,7 @@ export const ContentCardItem = styled('div', {
     minHeight: '250px',
     borderRadius: '8px',
     background: '#faf5f6',
-    boxShadow: '0px 16px 24px rgba(0, 0, 0, 0.12)',
+    boxShadow: '$elevation01',
     color: '#000',
 
     flexBasis: 'calc(33.33% - 20px)',

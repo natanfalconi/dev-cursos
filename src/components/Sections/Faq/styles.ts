@@ -9,7 +9,7 @@ export const TitleContainer = styled('div', {
     marginBottom: '32px',
 
     'h2': {
-        color: '$gray_25',
+        color: '$light_text_100',
         fontSize: '32px',
         lineHeight: '40px',
         fontWeight: '$header_1',

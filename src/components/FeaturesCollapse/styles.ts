@@ -31,7 +31,7 @@ export const CollapseContainer = styled(Accordion.Root, {
 });
 
 export const CollapseItem = styled(Accordion.Item, {
-  backgroundColor: '$secondary_200',
+  backgroundColor: '#fff',
   padding: '20px 25px',
   borderRadius: '10px',
 });
@@ -43,6 +43,9 @@ export const CollapseHeader = styled(Accordion.Header, {
   fontSize: '16px',
   lineHeight: '27px',
   position: 'relative',
+
+  color: '$light_text_100',
+
   span: {
     display: 'flex',
     gap: '8px',
@@ -65,6 +68,7 @@ export const CollapseTrigger = styled(Accordion.Trigger, {
   border: 'none',
   pointerEvents: 'all',
   fontSize: '18px',
+  color: '$light_text_100',
   width: '100%',
   position: 'absolute',
   right: '0',
@@ -74,6 +78,7 @@ export const CollapseTrigger = styled(Accordion.Trigger, {
 export const CollapseContent = styled(Accordion.Content, {
   marginTop: '10px',
   fontSize: '16px',
+  color: '$light_text_100',
   lineHeight: '22px',
 });
 

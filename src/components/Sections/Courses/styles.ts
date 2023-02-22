@@ -13,7 +13,7 @@ export const TitleContainer = styled('div', {
     marginBottom: '24px',
 
     'h2': {
-        color: '$gray_25',
+        color: '$light_text_100',
         fontSize: '32px',
         lineHeight: '40px',
         fontWeight: '$header_1',
@@ -42,8 +42,9 @@ export const ContentCard = styled('div', {
 export const CardCourses = styled('div', {
     maxWidth: '330px',
     minHeight: '283px',
-    background: '#F7F7F7',
+    background: '#fff',
     borderRadius: '$sm',
+    boxShadow: '$elevation03'
     // '&:hover': {
     //     transform: 'translateY(-20px)',
     // }
