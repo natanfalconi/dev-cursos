@@ -10,7 +10,7 @@ interface IMetaTags {
 }
 
 const MetaTags: React.FC<IMetaTags> = ({
-  title = 'Chip2Go - Comece agora a sua jornada na programação web',
+  title = 'Dev Cursos - Comece agora a sua jornada na programação web',
   description = 'Assista os cursos com vídeos em alta definição em uma plataforma completa pra que você tenha o maior aproveitamento.',
   url = `${process.env.NEXT_PUBLIC_WEBSITE_LINK}`,
   image = ``,
