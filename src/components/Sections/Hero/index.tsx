@@ -14,7 +14,7 @@ export function Hero() {
                     <Row>
                         <Col md={12}>
                             <ContainerText>
-                                <h2></h2>
+                                <h2>Alcance seu potencial</h2>
 
                                 <ContentText>
                                     <h4>Quer se tornar um programador de sucesso, mas não sabe por onde começar? </h4>

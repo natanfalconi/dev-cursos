@@ -15,8 +15,8 @@ export const ContainerImage = styled('div', {
     },
 
     "@sm": {
-        'svg': {
-            display: 'none'
+        img: {
+            width: '100%'
         }
     }
 });

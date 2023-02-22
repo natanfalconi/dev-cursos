@@ -64,13 +64,13 @@ export const Options = styled('div', {
     transition: '400ms',
 
     'a': {
-        background: '$secondary_900',
+        backgroundColor: '#60A34E',
         borderRadius: '8px',
         padding: '18px',
         widows: '100%',
 
         '&:hover': {
-            background: '$secondary_800'
+            backgroundColor: '$success_700',
         }
     },
 });
@@ -89,13 +89,16 @@ export const FeedbackText = styled('div', {
     'a': {
         padding: '12px',
         borderRadius: '8px',
-        background: '$secondary_900',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+        backgroundColor: '#60A34E',
         color: '#fff',
         fontWeight: '$body_3',
         cursor: 'pointer',
 
         '&:hover': {
-            background: '$secondary_800'
+            backgroundColor: '$success_700',
         }
     }
 });

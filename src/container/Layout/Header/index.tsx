@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 export function Header() {
   const isMobile = useViewport();
 
-  const [remainingSeconds, setRemainingSeconds] = useState(8 * 60);
+  const [remainingSeconds, setRemainingSeconds] = useState(15 * 60);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -45,7 +45,7 @@ export function Header() {
                 <NavLinks>
                   <a href="#inicio">Início</a>
                   <a href="#beneficios">Benefícios</a>
-                  <a href="#depoimentos">Depoimentos</a>
+                  <a href="#faq">Duvidas</a>
                   <a href='#cursos'>Ver cursos</a>
                 </NavLinks>
               </Navbar>
