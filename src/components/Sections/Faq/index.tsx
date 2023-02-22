@@ -34,7 +34,7 @@ const features = [
         icon: undefined,
     },
     {
-        title: 'Eu preciso investir em mais alguma alguma coisa após adquirir o curso?',
+        title: 'Qual o formato do curso?',
         description: 'O curso é 100% em videoaulas através da plataforma de ensino da Cod3r. Uma plataforma completa, onde você tem total controle do seu aprendizado onde e quando quiser.',
         icon: undefined,
     },
