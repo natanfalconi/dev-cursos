@@ -34,6 +34,17 @@ export const CollapseItem = styled(Accordion.Item, {
   backgroundColor: '#fff',
   padding: '20px 25px',
   borderRadius: '10px',
+  transition: 'transform 0.3s ease',
+
+  '&:hover': {
+    transform: 'translateY(-5px)'
+  },
+
+  '&[data-state=open]': {
+    boxShadow: '0px 16px 24px rgba(0, 0, 0, 0.12)',
+    border: '1px solid $secondary_900'
+  },
+
 });
 
 export const CollapseHeader = styled(Accordion.Header, {

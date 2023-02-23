@@ -4,11 +4,10 @@ export const Container = styled('footer', {
   backgroundColor: '#fff',
   color: '#000',
   fontFamily: '$primary',
-
 });
 
 export const FooterRightsReserved = styled('div', {
-  backgroundColor: '$secondary_900',
+  color: '$dark_50',
   height: '59px',
 
   width: '100%',
@@ -17,7 +16,6 @@ export const FooterRightsReserved = styled('div', {
   justifyContent: 'center',
 
   'p': {
-    color: '#fff',
     fontSize: '16px',
   },
 

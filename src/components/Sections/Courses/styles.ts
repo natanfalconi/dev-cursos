@@ -33,10 +33,6 @@ export const ContentCard = styled('div', {
     flexWrap: 'wrap',
     gap: '32px',
     borderRadius: '8px',
-
-    // transition: 'transform ease-in-out',
-    // animationDelay: '0.4s'
-
 });
 
 export const CardCourses = styled('div', {
@@ -44,10 +40,13 @@ export const CardCourses = styled('div', {
     minHeight: '283px',
     background: '#fff',
     borderRadius: '$sm',
-    boxShadow: '$elevation03'
-    // '&:hover': {
-    //     transform: 'translateY(-20px)',
-    // }
+    boxShadow: '$elevation03',
+
+    transition: 'transform 0.3s ease',
+
+    '&:hover': {
+        transform: 'translateY(-10px)'
+    },
 });
 
 export const FeedbackImage = styled('div', {
@@ -55,25 +54,6 @@ export const FeedbackImage = styled('div', {
         width: '100%',
         borderRadius: '8px 8px 0px 0px',
     }
-});
-
-export const Options = styled('div', {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: '32px',
-    transition: '400ms',
-
-    'a': {
-        backgroundColor: '#60A34E',
-        borderRadius: '8px',
-        padding: '18px',
-        widows: '100%',
-
-        '&:hover': {
-            backgroundColor: '$success_700',
-        }
-    },
 });
 
 export const FeedbackText = styled('div', {
@@ -99,7 +79,8 @@ export const FeedbackText = styled('div', {
         cursor: 'pointer',
 
         '&:hover': {
-            backgroundColor: '$success_700',
+            backgroundColor: '#60A322',
+            opacity: '0.9',
         }
     }
 });

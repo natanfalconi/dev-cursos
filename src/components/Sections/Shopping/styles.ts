@@ -3,15 +3,9 @@ import { styled } from '../../../../stitches.config';
 export const Container = styled('div', {
     position: 'relative',
     fontFamily: '$primary',
+    padding: '80px 0px',
 
-    background: `url(img/price.webp)`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-
-    '@sm': {
-        background: `none`,
-    }
+    background: 'linear-gradient(90deg, rgba(10,161,201,1) 6%, rgba(4,98,122,1) 64%)',
 });
 
 export const TitleContainer = styled('div', {
@@ -25,7 +19,7 @@ export const TitleContainer = styled('div', {
     display: 'flex',
 
     'h2': {
-        color: '#FFE8F0',
+        color: '#fff',
         fontSize: '24px',
         lineHeight: '47px',
         fontWeight: '$header_1',
@@ -40,170 +34,38 @@ export const TitleContainer = styled('div', {
     }
 });
 
-export const FormBag = styled('div', {
-    maxWidth: '590px',
-    height: 'auto',
-    background: '#FFE8F0',
 
-    'form': {
-        padding: '24px 48px',
-
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-
-        'h2': {
-            padding: '8px 0px 12px',
-            fontSize: '24px',
-
-            'span': {
-                color: '$primary_600',
-            }
-        },
-
-        'hr': {
-            width: '100%',
-            height: '1px',
-            border: '0px',
-            borderTop: '1px solid #ccc',
-        }
-    },
-
-
-    "@sm": {
-        'form': {
-            padding: '20px',
-
-            'h2': {
-                textAlign: 'center',
-                fontSize: '24px',
-            },
-        },
-    }
-})
-
-export const ValueBag = styled('div', {
-    margin: '32px 0px 20px',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-
-    'h4': {
-        fontWeight: '400',
-        textDecoration: 'line-through',
-    },
-
-    'h5': {
-        fontSize: '48px',
-        color: '$primary_600',
-        fontWeight: '700',
-
-        'span': {
-            fontWeight: '400',
-            fontSize: '18px',
-        },
+export const ContainerShopping = styled('div', {
+    'h2': {
+        textTransform: 'uppercase',
+        textAlign: 'center',
+        fontSize: '36px',
+        lineHeight: '48px',
+        fontWeight: '800',
     }
 });
 
-export const SelectContainer = styled('div', {
-    width: '100%',
-    marginBottom: '12px',
-
-    'label': {
-        margin: '12px 0px !important'
-    },
-
-    'select': {
-        width: '100%',
-        padding: '10px 18px',
-        borderRadius: '100px',
-        border: '1px solid #ccc',
-    }
-});
-
-export const SizeBag = styled('div', {
-    width: '100%',
-    background: '#FDD1E0',
-    height: '110px',
-    borderRadius: '8px',
-    padding: '24px',
-
-    display: 'flex',
-    alignItems: 'center',
-    gap: 22,
-
-    marginBottom: '12px',
-
-    'img': {
-        width: '12%',
-    },
-
-    'div': {
-        'span': {
-            fontSize: '14px',
-            fontWeight: '600',
-        }
-    },
-
-
-    '@sm': {
-        'img': {
-            width: '18%',
-        },
-
-        'div': {
-            'p': {
-                fontSize: '14px',
-            }
-        }
-    }
-});
-
-export const CheckboxArea = styled('div', {
-    marginBottom: '12px',
-
-    "@sm": {
-        'label': {
-            fontSize: '14px',
-        }
-    }
-});
-
-export const ButtonBag = styled('div', {
-    width: '100%',
-    marginTop: '20px',
+export const Options = styled('div', {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: '30px',
+    marginTop: '32px',
+    transition: '400ms',
 
     'a': {
-        color: '$text_light_200',
-        fontSize: '14px',
-        cursor: 'pointer',
-    },
-
-    'button': {
-        background: '$primary_600',
-        color: '#fff',
-        padding: '10px 16px',
-        border: 'none',
-        borderRadius: '100px',
-        cursor: 'pointer',
-        transition: '200ms',
+        backgroundColor: '#60A34E',
+        borderRadius: '8px',
+        padding: '18px',
 
         '&:hover': {
-            background: '$primary_light',
+            backgroundColor: '#60A322',
+            opacity: '0.9',
         }
     },
 
-
     "@sm": {
-        flexDirection: 'column-reverse',
-
-        'button': {
-            width: '100%'
-        }
+        'a': {
+            padding: '18px 8px',
+        },
     }
-
 });

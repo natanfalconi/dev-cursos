@@ -16,7 +16,7 @@ export default function Home() {
       <Benefits />
       <Courses />
       <Faq />
-      {/* <Shopping /> */}
+      <Shopping />
     </Layout>
   )
 }

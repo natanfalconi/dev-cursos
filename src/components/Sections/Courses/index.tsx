@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Col, Row, Container as GridContainer } from "react-grid-system";
-import { CardCourses, Container, ContentCard, FeedbackImage, FeedbackText, Options, TitleContainer } from "./styles";
+import { CardCourses, Container, ContentCard, FeedbackImage, FeedbackText, TitleContainer } from "./styles";
 // import womanFeedback from '../../../../public/img/woman-feedback.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
@@ -94,17 +94,6 @@ export function Courses() {
                         </ContentCard>
                     </Col>
                 </Row>
-
-                <Row>
-                    <Col md={12}>
-                        <Options>
-                            <a href="https://www.cod3r.com.br/?ref=96e4e9" target='_blank' rel="noreferrer">
-                                Veja todas as opções disponíveis
-                            </a>
-                        </Options>
-                    </Col>
-                </Row>
-
             </GridContainer>
         </Container>
     )
