@@ -63,6 +63,7 @@ export const FeedbackText = styled('div', {
     alignItems: 'center',
 
     'p': {
+        minHeight: '80px',
         color: '#2D2E2E',
         marginBottom: '18px',
     },

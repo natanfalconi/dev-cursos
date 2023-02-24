@@ -1,7 +1,5 @@
-import Image from "next/image";
 import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { CardCourses, Container, ContentCard, FeedbackImage, FeedbackText, TitleContainer } from "./styles";
-// import womanFeedback from '../../../../public/img/woman-feedback.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons/faSquareArrowUpRight";
 import react from '../../../../public/img/react.webp'
@@ -10,13 +8,7 @@ import javascript from '../../../../public/img/javascript.webp'
 import vue from '../../../../public/img/vue.webp'
 import next from '../../../../public/img/next.webp'
 import js from '../../../../public/img/js.webp'
-
-import dynamic from 'next/dynamic'
 import { useViewport } from "@/src/providers/ViewportProvider";
-import CarouselPrevNextCard from "../../CarouselPrevNextCard";
-// const CarouselPrevNextCard = dynamic(() => import("../../../components/CarouselPrevNextCard"), {
-//     ssr: false
-// });
 
 const CoursesCard = [
     {

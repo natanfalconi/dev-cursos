@@ -3,7 +3,7 @@ import { CircleArrow, Container, ContainerText, ContentText } from './styles';
 import { useViewport } from '@/src/providers/ViewportProvider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons/faArrowDown';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight';
+import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons/faSquareArrowUpRight';
 import { Options } from '../Shopping/styles';
 
 export function Hero() {
@@ -31,7 +31,7 @@ export function Hero() {
                             <Options>
                                 <a href="https://www.cod3r.com.br/?ref=96e4e9" target='_blank' rel="noreferrer">
                                     Quero ser um profissional completo
-                                    <FontAwesomeIcon icon={faArrowRight} color="#fff" />
+                                    <FontAwesomeIcon icon={faSquareArrowUpRight} color="#fff" />
                                 </a>
                             </Options>
                         </Col>

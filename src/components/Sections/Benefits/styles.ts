@@ -51,6 +51,7 @@ export const ContentCardItem = styled('div', {
     maxWidth: '456px',
     minHeight: '250px',
     borderRadius: '8px',
+    border: '1px solid $secondary_900',
     background: '#faf5f6',
     boxShadow: '$elevation01',
     color: '#000',
@@ -85,7 +86,6 @@ export const ContentCardItem = styled('div', {
     '@sm': {
         minHeight: '350px',
         boxShadow: 'none',
-        border: '2px solid $secondary_900'
     }
 });
 

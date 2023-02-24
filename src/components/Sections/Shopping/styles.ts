@@ -79,7 +79,6 @@ export const Options = styled('div', {
     },
 
     "@sm": {
-        justifyContent: 'left',
         'a': {
             gap: '6px',
             fontSize: '14px',
