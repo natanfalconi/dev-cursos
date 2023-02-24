@@ -5,6 +5,7 @@ import { Faq } from '@/src/components/Sections/Faq'
 import { Hero } from '@/src/components/Sections/Hero'
 import { History } from '@/src/components/Sections/History'
 import { Shopping } from '@/src/components/Sections/Shopping'
+import { Shopping2 } from '@/src/components/Sections/Shopping2'
 import { Layout } from '../src/container/Layout'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <History />
       <Benefits />
+      <Shopping2 />
       <Courses />
       <Faq />
       <Shopping />

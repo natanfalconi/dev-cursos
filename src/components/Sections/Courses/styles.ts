@@ -73,13 +73,13 @@ export const FeedbackText = styled('div', {
         display: 'flex',
         alignItems: 'center',
         gap: '8px',
-        backgroundColor: '#60A34E',
+        backgroundColor: '#03C956',
         color: '#fff',
         fontWeight: '$body_3',
         cursor: 'pointer',
 
         '&:hover': {
-            backgroundColor: '#60A322',
+            backgroundColor: '#03B54D',
             opacity: '0.9',
         }
     }

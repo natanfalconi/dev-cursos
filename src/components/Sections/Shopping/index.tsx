@@ -1,4 +1,6 @@
 import { useViewport } from "@/src/providers/ViewportProvider";
+import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons/faSquareArrowUpRight";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { Container, TitleContainer, ContainerShopping, Options } from "./styles";
 
@@ -17,7 +19,6 @@ export function Shopping() {
                         <Col md={12}>
                             <ContainerShopping>
                                 <h2>Pronto para se tormar um <br /> programador profissional?</h2>
-
                             </ContainerShopping>
                         </Col>
                     </Row>
@@ -26,7 +27,8 @@ export function Shopping() {
                         <Col md={12}>
                             <Options>
                                 <a href="https://www.cod3r.com.br/?ref=96e4e9" target='_blank' rel="noreferrer">
-                                    Veja todas as opções disponíveis
+                                    Quero ser um profissional completo
+                                    <FontAwesomeIcon icon={faSquareArrowUpRight} />
                                 </a>
                             </Options>
                         </Col>

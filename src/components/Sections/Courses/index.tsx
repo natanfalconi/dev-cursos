@@ -3,7 +3,7 @@ import { Col, Row, Container as GridContainer } from "react-grid-system";
 import { CardCourses, Container, ContentCard, FeedbackImage, FeedbackText, TitleContainer } from "./styles";
 // import womanFeedback from '../../../../public/img/woman-feedback.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
+import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons/faSquareArrowUpRight";
 import react from '../../../../public/img/react.webp'
 import allCourses from '../../../../public/img/all-courses.webp'
 import javascript from '../../../../public/img/javascript.webp'
@@ -86,7 +86,7 @@ export function Courses() {
 
                                         <a href={card.link} target='_blank' rel="noreferrer">
                                             Quero aprender agora
-                                            <FontAwesomeIcon icon={faArrowRight} />
+                                            <FontAwesomeIcon icon={faSquareArrowUpRight} />
                                         </a>
                                     </FeedbackText>
                                 </CardCourses>

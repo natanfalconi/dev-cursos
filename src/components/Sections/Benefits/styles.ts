@@ -2,6 +2,7 @@ import { styled } from '../../../../stitches.config';
 
 export const Container = styled('div', {
     position: 'relative',
+    padding: '0px 0px 40px',
 
     '@sm': {
         padding: '40px 0px',

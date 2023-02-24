@@ -5,13 +5,13 @@ export const Container = styled('div', {
     fontFamily: '$primary',
     padding: '80px 0px',
 
-    background: 'linear-gradient(90deg, rgba(10,161,201,1) 6%, rgba(4,98,122,1) 64%)',
+    background: '#372772',
 });
 
 export const TitleContainer = styled('div', {
     width: '100%',
     height: '72px',
-    background: '#252A37',
+    background: '#3A2449',
     textTransform: 'uppercase',
 
     justifyContent: 'center',
@@ -53,12 +53,15 @@ export const Options = styled('div', {
     transition: '400ms',
 
     'a': {
-        backgroundColor: '#60A34E',
+        display: 'flex',
+        alignItems: 'center',
+        backgroundColor: '#03C956',
         borderRadius: '8px',
         padding: '18px',
+        gap: '16px',
 
         '&:hover': {
-            backgroundColor: '#60A322',
+            backgroundColor: '#03B54D',
             opacity: '0.9',
         }
     },
