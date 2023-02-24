@@ -68,7 +68,6 @@ export const ContentCardItem = styled('div', {
     },
 
     'div': {
-
         'h3': {
             textAlign: 'center',
             fontWeight: '800',
@@ -82,6 +81,12 @@ export const ContentCardItem = styled('div', {
             lineHeight: '23px',
         },
     },
+
+    '@sm': {
+        minHeight: '350px',
+        boxShadow: 'none',
+        border: '2px solid $secondary_900'
+    }
 });
 
 export const CircleArrow = styled('div', {

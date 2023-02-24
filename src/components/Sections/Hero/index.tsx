@@ -16,7 +16,7 @@ export function Hero() {
                     <Row>
                         <Col md={12}>
                             <ContainerText>
-                                <h2>2023 com o pé direito?</h2>
+                                <h2>2023 do jeito certo?</h2>
 
                                 <ContentText>
                                     <h4>Aprenda a ser um programador mais do que completo </h4>

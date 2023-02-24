@@ -25,7 +25,13 @@ export const PaymentMethod = styled('div', {
     margin: '36px 0px 24px',
 
     'img': {
-        width: '50%',
+        width: '60%',
+    },
+
+    '@sm': {
+        'img': {
+            width: '100%',
+        }
     }
 });
 

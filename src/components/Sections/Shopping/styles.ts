@@ -6,6 +6,10 @@ export const Container = styled('div', {
     padding: '80px 0px',
 
     background: '#372772',
+
+    "@sm": {
+        padding: '40px 0px',
+    }
 });
 
 export const TitleContainer = styled('div', {
@@ -27,6 +31,7 @@ export const TitleContainer = styled('div', {
 
     "@sm": {
         'h2': {
+            textAlign: 'center',
             padding: '0px 8px',
             fontSize: '18px',
             lineHeight: '20px',
@@ -42,6 +47,13 @@ export const ContainerShopping = styled('div', {
         fontSize: '36px',
         lineHeight: '48px',
         fontWeight: '800',
+    },
+
+    '@sm': {
+        'h2': {
+            fontSize: '28px',
+            lineHeight: '40px'
+        }
     }
 });
 
@@ -67,7 +79,10 @@ export const Options = styled('div', {
     },
 
     "@sm": {
+        justifyContent: 'left',
         'a': {
+            gap: '6px',
+            fontSize: '14px',
             padding: '18px 8px',
         },
     }

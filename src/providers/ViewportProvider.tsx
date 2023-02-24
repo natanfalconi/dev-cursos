@@ -27,7 +27,6 @@ export function ViewportProvider({ children }: ViewportProviderProps) {
   const [height, setHeight] = useState(0);
 
   const screenSize = useMemo(() => {
-    console.log('width', width)
     if (width <= breakpoints.sm) return 'xs';
     if (width <= breakpoints.md) return 'sm';
     if (width >= breakpoints.sm && width <= breakpoints.lg) return 'md';

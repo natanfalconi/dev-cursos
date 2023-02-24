@@ -5,7 +5,7 @@ export const Container = styled('div', {
     position: 'relative',
 
     '@sm': {
-        padding: '0px 0px 40px',
+        padding: '40px 0px',
     }
 });
 
